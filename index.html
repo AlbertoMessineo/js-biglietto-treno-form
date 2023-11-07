@@ -3,25 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
     <link rel="stylesheet" href="css/styles.css">
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
     <title>calcolo del prezzo del biglietto del treno</title>
 </head>
-<body>
-    <header> 
-        <h1>Calcola il prezzo del tuo biglietto</h1>
-    </header>
-    <main>
-        <input type="text" value="">
-        <input type="text" value="">
-
-        <label for="age-selector">Fascia d'età</label>
-            <select name="age" id="age-selector">
-                <option value="Maggiorenne">Maggiorenne</option>
-                <option value="Minorenne">Minorenne</option>
-                <option value="Over-65">Over 65</option>
-            </select>
-    </main>
-    <footer></footer>
+<body class="body-back">
+    <div class="container text-center mt-5 ">
+        <header> 
+            <h1 class="p-3">Calcola il prezzo del tuo biglietto</h1>
+        </header>
+        <main>
+            <div class="container-am">
+                <div class="box-am p-3">
+                    <h4 class="p-1">Nome Cognome</h4>
+                    <input type="text" value="" id="name-id">
+                </div>
+                <div class="box-am p-3">
+                    <h4 class="p-1">Distanza (in km)</h4>
+                    <input type="text" value="" id="distance-id">
+                </div>
+                <div class="box-am p-3">
+                    <h4 class="p-1">Fascia d'età </h4>
+                    <select name="age" id="age-selector">
+                        <option value="Maggiorenne">Maggiorenne</option>
+                        <option value="Minorenne">Minorenne</option>
+                        <option value="Over-65">Over 65</option>
+                    </select>
+                </div>
+            </div>
+           
+            <button class="generator">Genera</button>
+            <button class="cleaner">Annulla</button>
+        </main>
+        <footer></footer>
+    </div>
+    <!-- link js -->
     <script src="myscript.js"></script>
 </body>
 </html>

@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+.body-back{
+    background-image: url("img/progetto-treno.jpg");
+    background-color: rgb(165, 252, 252);
+}
+h1{
+    text-transform: uppercase;
+}
+.container{
+    background-color: rgb(223, 255, 255);
+    border: 1px solid rgb(0, 195, 255) ;
+    border-radius: 10px;
+}
+.container-am{
+    display: flex;
+    justify-content: center;
+}

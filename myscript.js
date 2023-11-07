@@ -1,8 +1,11 @@
 'use strict';
 
-//PROMPT DATA
-// const age = prompt('inserire la sua età');
-// const distance = prompt('inserire la distanza da percorrere (in km)');
+//INPUT DATA
+const distance = document.getElementById('distance-id');
+const age = document.getElementById('age-selector');
+
+console.log(distance);
+// const distance = prompt('inserir;e la distanza da percorrere (in km)');
 
 // TRASFORMO IN NUMERO LE STRINGHE (DATI DEI PROMPT)
 console.log('età inserita ' + +age);
