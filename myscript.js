@@ -1,10 +1,31 @@
 'use strict';
 
 //INPUT DATA
-const distance = document.getElementById('distance-id');
-const age = document.getElementById('age-selector');
 
-console.log(distance);
+
+// const bottone=document.getElementById("generate")
+//  bottone.addEventListener("click", function(){
+
+//     let distance = document.getElementById("distance-id").value
+// distance = parseInt(distance)
+// console.log("Numero di km:", NumeroKm)
+
+
+
+
+
+
+
+
+
+
+
+// const distance = document.getElementById('distance-id').value;
+const age = document.getElementById('age-selector').value;
+
+
+
+
 // const distance = prompt('inserir;e la distanza da percorrere (in km)');
 
 // TRASFORMO IN NUMERO LE STRINGHE (DATI DEI PROMPT)
