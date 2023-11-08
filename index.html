@@ -17,29 +17,46 @@
         </header>
         <main>
             <div class="container-am">
-                <form action="">
                     <div class="box-am p-3">
                         <h4 class="p-1">Nome Cognome</h4>
                         <input type="text" value="" id="name-id">
                     </div>
                     <div class="box-am p-3">
                         <h4 class="p-1">Distanza (in km)</h4>
-                        <input type="text" value="" id="distance-id">
+                        <input type="number" value="" id="distance-id">
                     </div>
                     <div class="box-am p-3">
                         <h4 class="p-1">Fascia d'età </h4>
                         <select name="age" id="age-selector">
-                            <option value="Maggiorenne">Maggiorenne</option>
-                            <option value="Minorenne">Minorenne</option>
-                            <option value="Over-65">Over 65</option>
+                            <option value="minorenne">Minorenne</option>
+                            <option value="maggiorenne">Maggiorenne</option>
+                            <option value="over-65">Over 65</option>
                         </select>
                     </div>
-                </form>
             </div>
            <div class="buttons m-2">
             <button class="generator rounded m-3 p-2 fs-5 fw-semibold" id="generate">Genera</button>
             <button class="cleaner rounded m-3 p-2 fs-5 fw-semibold" id="clean">Annulla</button>
            </div>
+           <div class="biglietto  text-start hidden " id="biglietto-virtuale">
+
+            <h2>Nome Utente</h2>
+            <p class="fw-semibold" id="nome-utente"></p>
+            
+            <h2>Carrozza</h2>
+            <p class="fw-semibold"  id="n-carrozza"></p>
+            
+            
+            <h2>Codice CP</h2>
+            <p class="fw-semibold"  id="cp-code"></p>
+            
+            
+            <h2>Prezzo biglietto</h2>
+            <p class="fw-semibold"  id="final-price"></p>
+            
+           </div>
+
+
         </main>
         <footer></footer>
     </div>

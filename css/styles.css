@@ -28,3 +28,12 @@ button{
     border-style: none;
     border: 1px solid salmon;
 }
+
+
+
+
+
+/* BIGLIETTO VIRTUALE */
+.hidden{
+    display: none;
+}
